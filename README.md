@@ -8,3 +8,4 @@ Anggota
 3) Aditya Erlangga Bagaskara (H071211053)
 4) Nur Aisyah                (H071211054)
 5) Aulia Adha Putri          (H071211055)
+6) Andi Raja Zulfakar        (H071211057)
