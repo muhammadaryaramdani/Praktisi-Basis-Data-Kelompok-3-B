@@ -95,7 +95,7 @@ create user upstream@localhost identified by 'masuk123';
 create user dream@localhost identified by 'tama123';
 
 -- memberikan semua akses tabel kepada user 
-grant all privileges on designdatabase to 'admin'@'localhost';
+grant all privileges on designdatabase to 'bigadmin'@'localhost';
 
 -- memberi hak akses tabel kepada user 
 grant all privileges on designdatabase.students to 'admin'@'localhost';
