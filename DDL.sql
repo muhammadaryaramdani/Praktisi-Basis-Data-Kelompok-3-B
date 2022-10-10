@@ -50,6 +50,14 @@ left join course c on c.id = s.course_id
 left join students st on ss.student_id = st.id
 where student_id = 1;
 
+-- nomor 5
+INSERT INTO course (id, name, duration) VALUES
+(1, 'Matematika', 55),
+(2, 'Sistem Basis Data', 55),
+(3, 'Pemrograman Web', 55),
+(4, 'Analisis Basis Data', 55);
+SELECT * from course;
+
 -- nomor 6
 insert into schedule (id, course_id, date, time) 
 values (1, 1, '2022-01-01', '2022-01-01 10:20:07'), 
