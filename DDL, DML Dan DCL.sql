@@ -1,4 +1,6 @@
 use designDatabase;
+
+-- DDL 
   create table students (
      id int primary key,
      full_name varchar(255),
@@ -84,6 +86,18 @@ set date = '2022-01-04', time ='2022-01-04 09:00:00'
 where ss.student_id = 3 ;
 
 
+-- DCL ---
+-- membuat user -----
+create user Bigadmin@localhost identified by 'login123';
+create user admin@localhost identified by 'login123';
+create user upstream@localhost identified by 'masuk123';
+create user dream@localhost identified by 'tama123';
 
+-- memberikan semua akses tabel kepada user 
+grant all privileges on * to 'admin'@'localhost';
 
+-- memberi sebagian hak akses tabel kepada user 
+grant all privileges on students to 'admin'@'localhost';
+grant all privileges on  course to 'upstream'@'localhost';
+grant all privileges on schedule to 'upstream'@'localhost'; 
 
