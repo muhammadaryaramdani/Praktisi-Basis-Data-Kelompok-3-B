@@ -38,10 +38,10 @@ values
 select * from students;
 
 -- nomor 3
-update students set full_name = 'Arya Ramdani',
-					address   = 'Makassar',
-                    major     ='Sistem Informasi'
-					where id  = 4;
+update students set full_name 	  = 'Arya Ramdani',
+			address   = 'Makassar',
+                    	major     ='Sistem Informasi'
+			where id  = 4;
 					
 -- nomor 4
 select s.id, c.name, s.date, s.time  from students_schedule as ss
