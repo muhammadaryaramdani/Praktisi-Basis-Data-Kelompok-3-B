@@ -25,7 +25,7 @@ use designDatabase;
 -- );
 
 
-
+-- DML 
 -- nomor 1
 -- insert into students (id, full_name, address, major)
 -- values 
