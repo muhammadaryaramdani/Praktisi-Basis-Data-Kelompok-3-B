@@ -37,6 +37,22 @@ values
 -- nomor 2
 select * from students;
 
+-- nomor 7
+update schedule 
+set date = '2022-01-02', time='2022-01-02 12:30:00'
+where id = 1 ;
+
+update schedule 
+join students_schedule ss on schedule.id = ss.schedule_id
+set date = '2022-01-03', time ='2022-01-03 10:20:07'
+where ss.student_id = 2 ;
+
+update schedule 
+join students_schedule ss on schedule.id = ss.schedule_id
+set date = '2022-01-04', time ='2022-01-04 09:00:00'
+where ss.student_id = 3 ;
+
+
 
 
 
