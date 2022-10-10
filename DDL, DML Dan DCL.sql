@@ -96,7 +96,7 @@ create user dream@localhost identified by 'tama123';
 -- memberikan semua akses tabel kepada user 
 grant all privileges on designdatabase to 'admin'@'localhost';
 
--- memberi sebagian hak akses tabel kepada user 
+-- memberi hak akses tabel kepada user 
 grant all privileges on designdatabase.students to 'admin'@'localhost';
 grant all privileges on  designdatabase.course to 'upstream'@'localhost';
 grant all privileges on designdatabase.schedule to 'upstream'@'localhost'; 
