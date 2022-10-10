@@ -1,6 +1,6 @@
 use designDatabase;
 
--- DDL 
+---DDL 
   create table students (
      id int primary key,
      full_name varchar(255),
