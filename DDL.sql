@@ -50,6 +50,15 @@ left join course c on c.id = s.course_id
 left join students st on ss.student_id = st.id
 where student_id = 1;
 
+-- nomor 6
+insert into schedule (id, course_id, date, time) values 
+(1, 1, '2022-01-01', '2022-01-01 10:20:07'),
+(2, 2, '2022-01-01', '2022-01-01 10:20:07'),
+(3, 3, '2022-01-01', '2022-01-01 10:20:07'),
+(4, 4, '2022-01-01', '2022-01-01 10:20:07');
+insert into students_schedule(student_id, schedule_id) values 
+(1, 1), (2, 2), (3, 3),(4,4);
+select * from schedule;
 
 -- nomor 7
 update schedule 
