@@ -37,6 +37,13 @@ values
 -- nomor 2
 select * from students;
 
+-- nomor 3
+update students set full_name = 'Arya Ramdani',
+					address   = 'Makassar',
+                    major     ='Sistem Informasi'
+					where id  = 4;
+
+
 -- nomor 7
 update schedule 
 set date = '2022-01-02', time='2022-01-02 12:30:00'
