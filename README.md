@@ -12,3 +12,6 @@ Anggota
 
 
 ![Design Database](https://user-images.githubusercontent.com/90515626/194793713-fb0f4c5d-30e3-45c9-9e89-62a6054e6c8b.jpg)
+
+
+![ERD](https://user-images.githubusercontent.com/90515626/194793773-816472e4-7bad-4e04-aa10-1d174757ce05.jpg)
