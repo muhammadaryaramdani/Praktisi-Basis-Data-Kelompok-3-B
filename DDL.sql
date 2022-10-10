@@ -24,3 +24,19 @@ create table students_schedule (
     foreign key (schedule_id) references schedule(id)
 );
 
+use designdatabase;
+
+-- nomor 1
+insert into students (id, full_name, address, major)
+values 
+(1, 'Muhammad Fikri', 'Minasa Upa', 'Sistem Informasi'),
+(2, 'Febi Fiantika', 'Makassar', 'Sistem Informasi'),
+(3, 'Nur Aisyah', 'Burau', 'Sistem Informasi'),
+(4, 'Arya Ramdani', 'Maluku', 'Ilmu Komputer');
+
+-- nomor 2
+select * from students;
+
+
+
+
